@@ -68,11 +68,12 @@
 .about-title{
     text-align: center;
     padding-top: 20px;
-    color: rgb(18, 5, 36);
+    color: rgb(4, 21, 23);
   font-weight: bolder;
   font-size: 60px;
   font-style: oblique;
   font-family: sans-serif;
+  text-decoration: underline dotted rgb(58, 38, 37);
 }
 .about-info{
     text-align: center;
@@ -111,4 +112,47 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.footer-container{
+    background-color: #211c1c;
+color: antiquewhite;
+display: flex;
+padding: 20px;
+align-items: normal;
+justify-content: space-around;
+border: 10px solid #807676;
+border-style: double;
+
+
+}
+.l{
+    width: 180px;
+}
+
+.useful-links{
+list-style: none;
+
+}
+.U{
+    margin-bottom: 15px;
+    font-weight: bolder;
+
+}
+.s{
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+.C{
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+.supports{
+    list-style: none;
+}
+.cp{
+    text-align: center;
+    background-color: #211c1c ;
+    color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
