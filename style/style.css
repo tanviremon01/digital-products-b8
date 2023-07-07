@@ -34,8 +34,81 @@
     color: white;
     align-items: center;
     background-image: url("../images/background.png"),linear-gradient(45deg,#181313,#130707);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .title{
     font-size: 55px;
    font-weight: bold;
+}
+.dis{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.btm{
+    padding: 10px 20px;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+}
+.btm:hover{
+    color: rgb(187, 203, 187);
+    cursor: pointer;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 10px;
+    background-color: (45deg,#574c4c #402a2a);
+
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(18, 5, 36);
+  font-weight: bolder;
+  font-size: 60px;
+  font-style: oblique;
+  font-family: sans-serif;
+}
+.about-info{
+    text-align: center;
+    padding-left: 20px;
+    
+}
+.box{
+    width: 250px;
+    height: 280px ;
+    box-shadow: 4px 4px 20px gray;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 254, 254);
+    background-color: black;
+}
+.icon{
+    width: 60px;
+
+
+}
+.box-btm{
+ background-color: grey;
+ margin-top: 10px;
+}
+.box-title{
+   padding: 10px;
+}
+.service{
+    padding-bottom: 20px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url("../images/background.png"),linear-gradient(45deg,#181313,#130707);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
